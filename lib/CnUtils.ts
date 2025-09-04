@@ -2,7 +2,7 @@
 //
 // Please see the included LICENSE file for more information.
 
-import { CryptoNote } from 'kryptokrona-utils';
+import { CryptoNote } from 'mevacoin-utils';
 import { Config } from './Config';
 
 /**
