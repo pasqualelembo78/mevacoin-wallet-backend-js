@@ -1,5 +1,5 @@
 {
-  "name": "mevacoin-wallet-backend-js",
+  "name": "mevacoin-backend-wallet",
   "version": "2.0",
   "description": "",
   "main": "dist/lib/index.js",
