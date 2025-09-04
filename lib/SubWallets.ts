@@ -20,7 +20,7 @@ import { addressToKeys, getCurrentTimestampAdjusted, isInputUnlocked } from './U
 import { SUCCESS, WalletError, WalletErrorCode } from './WalletError';
 
 import * as _ from 'lodash';
-import { Address } from 'kryptokrona-utils';
+import { Address } from 'mevacoin-utils';
 
 /**
  * Stores each subwallet, along with transactions and public spend keys

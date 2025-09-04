@@ -3,7 +3,7 @@
 // Please see the included LICENSE file for more information.
 
 import { MixinLimit, MixinLimits } from './MixinLimits';
-import {IKeyPair} from 'kryptokrona-crypto'
+import {IKeyPair} from 'mevacoin-crypto'
 
 const version = require('../../package.json').version;
 
@@ -252,7 +252,7 @@ export class Config implements IConfig {
 
     /**
      * The address prefix your coin uses - you can find this in CryptoNoteConfig.h.
-     * For kryptokrona, this converts to 'SEKR'.
+     * For mevacoin, this converts to 'SEKR'.
      */
     public addressPrefix: number = 2239254;
 

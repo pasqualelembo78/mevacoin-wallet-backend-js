@@ -4,11 +4,11 @@
 [![Build Status](https://travis-ci.org/turtlecoin/turtlecoin-wallet-backend-js.svg?branch=master)](https://travis-ci.org/turtlecoin/turtlecoin-wallet-backend-js)
 
 #### NPM
-https://www.npmjs.com/package/kryptokrona-wallet-backend-js
+https://www.npmjs.com/package/mevacoin-wallet-backend-js
 
 #### Github
 
-https://github.com/kryptokrona/kryptokrona-wallet-backend-js
+https://github.com/mevacoin/mevacoin-wallet-backend-js
 
 # Kryptokrona-wallet-backend
 
@@ -22,24 +22,24 @@ Provides an interface to the Kryptokrona network, allowing wallet applications t
 
 NPM:
 
-`npm install kryptokrona-wallet-backend-js --save`
+`npm install mevacoin-wallet-backend-js --save`
 
 Yarn:
 
-`yarn add kryptokrona-wallet-backend-js`
+`yarn add mevacoin-wallet-backend-js`
 
 ## Documentation
 
-[You can view the documentation here](https://github.com/kryptokrona/kryptokrona-wallet-backend-js/blob/master/docs/classes/_walletbackend_.walletbackend.html)
+[You can view the documentation here](https://github.com/mevacoin/mevacoin-wallet-backend-js/blob/master/docs/classes/_walletbackend_.walletbackend.html)
 
 You can see a list of all the other classes on the right side of the screen.
-Note that you will need to prefix them all with `WB.` to access them, if you are not using typescript style imports, assuming you imported with `const WB = require('kryptokrona-wallet-backend-js')`.
+Note that you will need to prefix them all with `WB.` to access them, if you are not using typescript style imports, assuming you imported with `const WB = require('mevacoin-wallet-backend-js')`.
 
 
 ### Javascript
 
 ```javascript
-const WB = require('kryptokrona-wallet-backend-js');
+const WB = require('mevacoin-wallet-backend-js');
 
 (async () => {
     const daemon = new WB.Daemon('127.0.0.1', 11898);
@@ -64,7 +64,7 @@ const WB = require('kryptokrona-wallet-backend-js');
 ### Typescript
 
 ```typescript
-import { WalletBackend, Daemon } from 'kryptokrona-wallet-backend-js';
+import { WalletBackend, Daemon } from 'mevacoin-wallet-backend-js';
 
 (async () => {
     const daemon: Daemon = new Daemon('127.0.0.1', 11898);

@@ -12,7 +12,7 @@ import {
     CryptoType,
     Transaction as CreatedTransaction,
     Transaction as UtilsTransaction
-} from 'kryptokrona-utils';
+} from 'mevacoin-utils';
 
 import * as fs from 'fs';
 import * as _ from 'lodash';

@@ -1314,9 +1314,9 @@
     "json-schema" "0.2.3"
     "verror" "1.10.0"
 
-"kryptokrona-crypto@^1.0.2":
+"mevacoin-crypto@^1.0.2":
   "integrity" "sha512-ys2jK1gIR3ayqhQpakQxHNoZ8iIHCNWjKXx3g6dQrQSPwAgpwP1LGmWYIN7X4W6ADMh4rQFXmHuk0D3nsYhm2g=="
-  "resolved" "https://registry.npmjs.org/kryptokrona-crypto/-/kryptokrona-crypto-1.0.2.tgz"
+  "resolved" "https://registry.npmjs.org/mevacoin-crypto/-/mevacoin-crypto-1.0.2.tgz"
   "version" "1.0.2"
   dependencies:
     "bindings" "^1.5.0"
@@ -1324,9 +1324,9 @@
     "nan" "^2.14.1"
     "prebuild-install" "^5.3.5"
 
-"kryptokrona-utils@^1.3.8":
+"mevacoin-utils@^1.3.8":
   "integrity" "sha512-rGRUgg1BawzYDJOIXRfLHHpoCPkBBjmagFn4Xun4mPIfgxJFyhDTftnLXJnQlV7VhWdu/4A/xXXX90wr5Gx4UA=="
-  "resolved" "https://registry.npmjs.org/kryptokrona-utils/-/kryptokrona-utils-1.3.8.tgz"
+  "resolved" "https://registry.npmjs.org/mevacoin-utils/-/mevacoin-utils-1.3.8.tgz"
   "version" "1.3.8"
   dependencies:
     "@turtlecoin/base58" "0.0.10"
@@ -1337,7 +1337,7 @@
     "aes-js" "^3.1.2"
     "big-integer" "^1.6.48"
     "get-random-values" "^1.2.2"
-    "kryptokrona-crypto" "^1.0.2"
+    "mevacoin-crypto" "^1.0.2"
     "node-fetch" "^2.6.1"
     "numeral" "^2.0.6"
     "package-lock.json" "^1.0.0"

@@ -2,7 +2,7 @@
 //
 // Please see the included LICENSE file for more information.
 
-import {Crypto} from 'kryptokrona-utils';
+import {Crypto} from 'mevacoin-utils';
 import {CryptoUtils} from './CnUtils';
 import {Config} from './Config';
 
